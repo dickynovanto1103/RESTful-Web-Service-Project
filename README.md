@@ -27,7 +27,8 @@ Untuk object, biasanya diindikasikan dengan adanya curly braces (kurung kurawal)
 
 2. REST
 
-
+REST adalah singkatan dari Representational State Transfer. REST adalah arsitektur web standar yang menggunakan Protokol HTTP untuk transfer data.
+Prinsipnya, setiap komponen di dalam REST adalah resource dan resouce ini dapat diakses dari common interface memakai standar methods HTTP.
 
 
 3. Github API
