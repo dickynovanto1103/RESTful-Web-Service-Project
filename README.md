@@ -42,3 +42,5 @@ Web Service adalah sekumpulan open protocols dan standards yang digunakan untuk 
 Web Service yang berbasis pada arsitektur REST adalah RESTful Web Services. Web services ini menggunakan methods HTTP untuk mengimplementasikan arsitektur REST.
 
 3. Github API
+Dimulai dari konsep dasar terlebih dahulu.
+Akan sering dijumpai istilah curl. Curl adalah tool yang digunakan di command line atau scripts untuk transfer data. Curl ini berperan sangat penting dalam transfer data di internet.
