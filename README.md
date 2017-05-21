@@ -41,6 +41,6 @@ e. OPTIONS: Untuk mendapatkan operasi-operasi yang tersupport untuk suatu resour
 Web Service adalah sekumpulan open protocols dan standards yang digunakan untuk pertukaran data antar aplikasi. Dengan web service ini, antar aplikasi dapat saling bertukar data di suatu jaringan (misal internet).
 Web Service yang berbasis pada arsitektur REST adalah RESTful Web Services. Web services ini menggunakan methods HTTP untuk mengimplementasikan arsitektur REST.
 
-3. Github API
+3. Github API<br>
 Dimulai dari konsep dasar terlebih dahulu.
 Akan sering dijumpai istilah curl. Curl adalah tool yang digunakan di command line atau scripts untuk transfer data. Curl ini berperan sangat penting dalam transfer data di internet.
