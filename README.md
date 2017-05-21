@@ -25,7 +25,7 @@ Untuk object, biasanya diindikasikan dengan adanya curly braces (kurung kurawal)
 	Dari contoh diatas, terdapat object KTP yang memiliki beberapa pair key dan value.
 
 
-2. REST
+<b>2. REST</b>
 
 REST adalah singkatan dari Representational State Transfer. REST adalah arsitektur web standar yang menggunakan Protokol HTTP untuk transfer data.
 Prinsipnya, setiap komponen di dalam REST adalah resource dan resource ini dapat diakses dari common interface memakai standar methods HTTP.
@@ -41,7 +41,7 @@ e. OPTIONS: Untuk mendapatkan operasi-operasi yang tersupport untuk suatu resour
 Web Service adalah sekumpulan open protocols dan standards yang digunakan untuk pertukaran data antar aplikasi. Dengan web service ini, antar aplikasi dapat saling bertukar data di suatu jaringan (misal internet).<br>
 Web Service yang berbasis pada arsitektur REST adalah RESTful Web Services. Web services ini menggunakan methods HTTP untuk mengimplementasikan arsitektur REST.<br>
 
-3. Github API
+<b>3. Github API</b>
 
 Dimulai dari konsep dasar terlebih dahulu.
 Akan sering dijumpai istilah curl. Curl adalah tool yang digunakan di command line atau scripts untuk transfer data. Curl ini berperan sangat penting dalam transfer data di internet.<br>
