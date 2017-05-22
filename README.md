@@ -17,7 +17,7 @@ Untuk array, biasanya diindikasikan dengan adanya pair key dan value dengan bebe
 	Contoh: "Nama" : ["Dicky", "Novanto", "Lalaland"]<br>
 Penjelasan: Key "Nama" memiliki value berupa array of string berisi 3 elemen diatas.<br><br>
 Untuk object, biasanya diindikasikan dengan adanya curly braces (kurung kurawal).<br>
-	Contoh: "KTP" : {<br>
+	<tab>Contoh: "KTP" : {<br>
 			"ID"   	: 1234<br>
 			"Nama" 	: "Dicky Novanto"<br>
 			"Alamat": "Jalan Tubagus Ismail V/11"<br>
@@ -32,7 +32,7 @@ Prinsipnya, setiap komponen di dalam REST adalah resource dan resource ini dapat
 Cara kerja secara umum REST adalah dengan cara Server REST menyediakan akses untuk client menggunakan resources. Setiap resource dapat diidentifikasi dengan URI (Universal Resouce Identifier) atau ID Global. Contoh resource: konten dari Text, JSON dan XML. Sebagai catatan, JSON merupakan resource yang sekarang paling umum digunakan dalam Web Services.
 
 HTTP Methods dari REST: <br>
-a. GET :  untuk mendapatkan akses read-only untuk suatu resource<br>
+a. GET : untuk mendapatkan akses read-only untuk suatu resource<br>
 b. PUT : untuk membuat sebuah resource yang baru<br>
 c. DELETE: untuk menghapus sebuah resouce<br>
 d. POST: untuk mengupdate atau membuat resource<br>
@@ -42,6 +42,8 @@ Web Service adalah sekumpulan open protocols dan standards yang digunakan untuk 
 Web Service yang berbasis pada arsitektur REST adalah RESTful Web Services. Web services ini menggunakan methods HTTP untuk mengimplementasikan arsitektur REST.<br>
 
 <b>3. Github API</b>
+
+API (Application Program Interface) secara umum adalah alat yang dapat digunakan untuk membuat sebuah software berbasis Graphical User Interface (GUI). Dalam project ini, akan digunakan Github API. Github API ini memiliki beberapa fitur yang dapat digunakan, misalnya untuk melihat list dari semua repository dari suatu user, atau melihat semua repository yang bersifat public, dan search API yang detail penjelasannya akan dijelaskan di paragraf bagian akhir dari subbab ini.
 
 Dimulai dari konsep dasar terlebih dahulu.
 Akan sering dijumpai istilah curl. Curl adalah tool yang digunakan di command line atau scripts untuk transfer data. Curl ini berperan sangat penting dalam transfer data di internet.<br>
@@ -54,7 +56,6 @@ Cara untuk melakukan autentikasi cukup mudah, yaitu cukup dengan mengetikkan: cu
 
 Semua akses terhadap Github API dapat dilakukan melalui protocol HTTPS.
 
-
 Dalam hal ini, akan difokuskan tentang search API. Seach API ini adalah tool yang dapat digunakan untuk mencari item tertentu, speerti repository, user, file dalam repository, commits, kode program, dan masih banyak lagi. GitHub Search API memfasilitasi hingga 1000 hasil pencarian setiap pencarian.
 
-Hasil dari operasi pencarian seacara default diurutkan berdasarkan best match (terdapat score field untuk tiap item hasil pencarian, makin besar score, makin best match hasil pencarian). Nilai score yang ditampilkan merupakan nilai ke-relevansi an item tersebut dengan item hasil pencarian lain. Namun pencarian dapat diurutkan berdasarkan parameter tersendiri, misalkan dari author, committer, author-date, dan lain lain.
+Hasil dari operasi pencarian secara default diurutkan berdasarkan best match (terdapat score field untuk tiap item hasil pencarian, makin besar score, makin best match hasil pencarian). Nilai score yang ditampilkan merupakan nilai ke-relevansi an item tersebut dengan item hasil pencarian lain. Namun pencarian dapat diurutkan berdasarkan parameter tersendiri, misalkan dari author, committer, author-date, dan lain lain.
